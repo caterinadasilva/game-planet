@@ -26,7 +26,6 @@ Cuál es la función de la página?
 - Presentar a rasgos generales lo que vende Game Planet (aún no se hace la compra)
 - Su enfoque es vender consolas de juego, por lo que su catálogo consiste en 3 productos *Nintendo Switch, Xbox one y Playsttion 4*.
 - Deben dar ganas de comprar el producto.
-- Los productos deben tener:
--- Precio
--- Botón de compra
--- Cualquier funcionalidad que aumente las posibilidades de compra.
+- Los productos deben tener: Precio, Botón de compra, Cualquier funcionalidad que aumente las posibilidades de compra.
+- El formulario de contacto debe ser el vínculo entre el cliente y la empresa ("No funciona una consola? Buscas alguna promoción? Quieres trabajar en gamePlanet?)
+- Debe tener la dirección, redes sociales e email de contacto.
