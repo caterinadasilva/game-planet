@@ -57,7 +57,7 @@ ul.nav.navbar-nav {
   height: auto;
 }
 .navbar-inverse{
-	background-color: #22213D;
+	background-color: rgba(34, 33, 61, 0.8);
 	border: none;
 	background-blend-mode: luminosity;
     box-shadow: 0 0 10px #000;
@@ -325,6 +325,23 @@ width: initial;
     flex-direction: column;
     position: relative;
     height: 35vh;
+}
+.product:hover h3 {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+        -webkit-transition-delay: 0.05s;
+    transition-delay: 0.05s;
+    -webkit-transition-duration: 0.35s;
+    transition-duration: 0.35s;
+}
+.product h3 {
+    color: rgba(255,255,255,0.8);
+        opacity: 0;
+    -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+    transition: opacity 0.2s, transform 0.35s;
+        -webkit-transform: translate3d(0,40px,0);
+    transform: translate3d(0,40px,0);
 }
 
 /**----------- Start Media ----------**/
