@@ -1,0 +1,17 @@
+.navbar-brand img {
+  height: 100%;
+  width: auto;
+}
+
+.navbar-inverse{
+	background-color: #4E3188;
+	border: none;
+}
+
+.navbar-inverse .navbar-nav li a{
+	color: #0CCA98;
+}
+
+.navbar-inverse .navbar-nav li a:hover{
+	color: #FFF;
+}
