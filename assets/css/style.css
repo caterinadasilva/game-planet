@@ -284,31 +284,30 @@ ul.nav.navbar-nav {
 /**-------------- End Slider ---------------**/
 
 /* CATALOGO */
-#catalogo {
-    padding: 10em 0;
-    height: 100vh;
+#catalogo, #contacto {
+    padding: 5em 0 10em;
 }
-
 #catalogo h2 {
     margin: 10vh auto;
 }
-
 .product:hover img {
--webkit-transform:scale(1);
-transform:scale(1);
+    -webkit-transform:scale(1);
+    transform:scale(1);
 }
-
 .product img {
--webkit-transform:scale(.85);
-transform:scale(.85);
--webkit-transition: all 0.7s ease;
-transition: all 0.7s ease;
-width: initial;
+    -webkit-transform:scale(.85);
+    transform:scale(.85);
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    width: initial;
     position: absolute;
+    margin: 0 auto;
+    left: 0;
+    top: .5em;
+    right: 0;
 }
-
 .product .circle {
-    background-color: #fff;
+    background-color: #00FFCC;
     overflow: visible;
     border-radius: 50%;
     height: 260px;
@@ -343,7 +342,6 @@ width: initial;
         -webkit-transform: translate3d(0,40px,0);
     transform: translate3d(0,40px,0);
 }
-
 /**----------- Start Media ----------**/
 @media screen and (max-width: 768px) {
   #slider, .carousel  {
