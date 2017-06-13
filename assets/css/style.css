@@ -35,11 +35,16 @@ a, a:hover {
     color: #fff;
     border: none;
     margin: 1em 0;
+    box-shadow: 3px 3px 0 #0CCA98;
 }
 .btn-default:hover {
-	
+	box-shadow: 5px 5px 0 #0CCA98;
 }
 /*MENU NAV */
+.navbar {
+    min-height: initial;
+    margin: 0;
+}
 .navbar-brand {
 	max-width: 200px;
 	height: initial;
@@ -52,16 +57,17 @@ ul.nav.navbar-nav {
   height: auto;
 }
 .navbar-inverse{
-	background-color: #4E3188;
+	background-color: #22213D;
 	border: none;
 	background-blend-mode: luminosity;
     box-shadow: 0 0 10px #000;
 }
-.navbar-inverse .navbar-nav li a{
+.navbar-inverse .navbar-nav li a, a{
 	color: #0CCA98;
 }
-.navbar-inverse .navbar-nav li a:hover{
-	color: #FFF;
+.navbar-inverse .navbar-nav li a:hover, a:hover{
+	color: #FFF024;
+	text-decoration: none;
 }
 /* VIDEO FROM COVERR.CO */
 .homepage-hero-module {
@@ -123,8 +129,8 @@ ul.nav.navbar-nav {
 }
 /**-------------- Start Slider ---------------**/
 #slider, .carousel {
-    width: 100%;
-    height: 400px;
+	width: 100%;
+    max-height: 45vh;
     position: relative;
     margin: auto;
     overflow: hidden;
@@ -167,7 +173,7 @@ ul.nav.navbar-nav {
     -webkit-transition: transform .5s ease-in;
     transition: transform .5s ease-in;
 }
-#slider .arrow label i 0{
+#slider .arrow label i {
     display: block;
     width: 40%;
     height: 45px;
@@ -279,17 +285,53 @@ ul.nav.navbar-nav {
 
 /* CATALOGO */
 #catalogo {
-    padding: 5em 0;
+    padding: 10em 0;
+    height: 100vh;
+}
+
+#catalogo h2 {
+    margin: 10vh auto;
+}
+
+.product:hover img {
+-webkit-transform:scale(1);
+transform:scale(1);
+}
+
+.product img {
+-webkit-transform:scale(.85);
+transform:scale(.85);
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+width: initial;
+    position: absolute;
+}
+
+.product .circle {
+    background-color: #fff;
+    overflow: visible;
+    border-radius: 50%;
+    height: 260px;
+    width: 260px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: relative;
+}
+.product {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    height: 35vh;
 }
 
 /**----------- Start Media ----------**/
 @media screen and (max-width: 768px) {
-  #slider {
+  #slider, .carousel  {
   	width: 100%; 
-  	height: 175px;
-  }
-  #slider .slides {
-  	height: 175px;
+  	height: 100vh;
   }
   #slider .arrow label {
   	width: 80px;
