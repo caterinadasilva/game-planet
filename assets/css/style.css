@@ -1,11 +1,25 @@
+body {
+	background-image: url('../img/bg.png');
+    background-blend-mode: luminosity;
+    background-color: #4E3188;
+}
+.navbar-brand {
+	max-width: 200px;
+	height: initial;
+}	
+ul.nav.navbar-nav {
+    padding: 15px 0;
+}
 .navbar-brand img {
-  height: 100%;
-  width: auto;
+  width: 100%;
+  height: auto;
 }
 
 .navbar-inverse{
 	background-color: #4E3188;
 	border: none;
+	background-blend-mode: luminosity;
+    box-shadow: 0 0 10px #000;
 }
 
 .navbar-inverse .navbar-nav li a{
@@ -14,4 +28,66 @@
 
 .navbar-inverse .navbar-nav li a:hover{
 	color: #FFF;
+}
+/* VIDEO FROM COVERR.CO */
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+        height: 100vh;
+}
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    color: #fff;
+}
+.video-container .filter h1 {
+	background-image: url('../img/logo_bco.png');
+    height: 200px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.video-container .filter h2 {
+	font-family: 'Press Start 2P', sans-serif;
+	text-shadow: 2px 3px 0 #4E3188;
+}
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    min-height: 100%;
+}
+.video-container video.fillWidth {
+    width: 100%;
 }
