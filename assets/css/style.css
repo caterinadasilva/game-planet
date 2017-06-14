@@ -69,7 +69,6 @@ ul.nav.navbar-nav {
 }
 .navbar-inverse .navbar-nav li a, a{
 	color: #0CCA98;
-	padding-top: 45px;
     line-height: 20px;
 }
 .navbar-inverse .navbar-nav li a:hover, a:hover{

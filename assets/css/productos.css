@@ -1,6 +1,13 @@
-
 /**************** DETALLE DEL PRODUCTO ***********/
-
+#producto {
+    margin: 15vh 0 5em;
+}
+#producto h1, #producto h2, #producto h3 { 
+    text-align: left;
+ }
+ol.breadcrumb {
+    background: none;
+}
 .carousel-inner .item img{
     height: 315px;
     width: 560px;
@@ -44,6 +51,7 @@
     position: relative;
 }
 .carousel-control.left {
+    padding: 0;
     background-image: none;
     width: 54px;
     height: 54px;
@@ -60,6 +68,7 @@
 }
 
 .carousel-control.right {
+    padding: 0;
     background-image: none;
     width: 54px;
     height: 54px;
