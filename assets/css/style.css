@@ -9,6 +9,7 @@ body {
 	background-image: url('../img/bg.png');
     background-blend-mode: luminosity;
     background-color: #4E3188;
+    color: #fff;
 }
 h1, h2, h3 {
 	font-family: 'Press Start 2P', sans-serif;
@@ -344,9 +345,14 @@ ul.nav.navbar-nav {
     transform: translate3d(0,40px,0);
 }
 /* CONTACTO */
+.form-group label, legend {
+    color: white;
+
+}
 .fb-page iframe {
     width: 100%;
 }
+
 /**----------- Start Media ----------**/
 @media screen and (max-width: 768px) {
   #slider, .carousel  {
