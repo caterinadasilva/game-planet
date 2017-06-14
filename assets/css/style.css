@@ -351,7 +351,7 @@ ul.nav.navbar-nav {
 }
 /* CONTACTO */
 #contacto {
-    padding: 5em 0 10em;
+    padding: 5em 0;
 }
 #contacto h2 {
     margin: 10vh auto;
@@ -376,9 +376,8 @@ a, a:hover {
 }
 
 /*	FOOTER*/
-.seccion-footer{
+footer.seccion-footer{
   background-color: rgba(34, 33, 61, 0.8);
-  position: fixed;
   border: none;
   background-blend-mode: luminosity;
   box-shadow: 0 0 10px #000;
@@ -386,11 +385,27 @@ a, a:hover {
   padding-bottom: 15px;
   padding-top: 15px;
   padding-left: 45px;
-  margin-top: 15px;
+  margin-top: 5em;
   bottom: 0px;
   width: 100%;
 }
-
+footer h3 {
+    text-align: left;
+    font-size: 130%;
+}
+a.social {
+    font-size: 20px;
+    border: 1px solid;
+    display: block;
+    border-radius: 50%;
+    line-height: 0;
+    width: 42px;
+    height: 42px;
+    padding: 10px;
+    float: left;
+    margin: 5px;
+    text-align: center;
+}
 .caja-texto p a {
   color: #0CCA98;
 }
