@@ -305,6 +305,7 @@ ul.nav.navbar-nav {
     left: 0;
     top: .5em;
     right: 0;
+    max-height: 300px;
 }
 .product .circle {
     background-color: #00FFCC;
