@@ -57,7 +57,11 @@ ul.nav.navbar-nav {
   width: 100%;
   height: auto;
 }
-.navbar-inverse{
+
+.navbar-inverse .navbar-nav ul{
+	padding-top: 45px;
+}
+  .navbar-inverse{
 	background-color: rgba(34, 33, 61, 0.8);
 	border: none;
 	background-blend-mode: luminosity;
@@ -65,6 +69,8 @@ ul.nav.navbar-nav {
 }
 .navbar-inverse .navbar-nav li a, a{
 	color: #0CCA98;
+	padding-top: 45px;
+    line-height: 20px;
 }
 .navbar-inverse .navbar-nav li a:hover, a:hover{
 	color: #FFF024;
@@ -353,6 +359,53 @@ ul.nav.navbar-nav {
     width: 100%;
 }
 
+.navbar-inverse .navbar-nav li a:hover{
+	color: ##FFF024;
+}
+.nav li a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+a, a:hover {
+  transition: .5s all ease;
+}
+
+/*	FOOTER*/
+.seccion-footer{
+  background-color: rgba(34, 33, 61, 0.8);
+  position: fixed;
+  border: none;
+  background-blend-mode: luminosity;
+  box-shadow: 0 0 10px #000;
+  min-height: 130px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 45px;
+  margin-top: 15px;
+  bottom: 0px;
+  width: 100%;
+}
+
+.caja-texto p a {
+  color: #0CCA98;
+}
+
+.caja-texto p a:hover{
+  color: #FFF024;
+  text-decoration: none;
+}
+
+.caja-abajo p{
+	color: #fff;
+}
+
+.caja-der{
+	padding-right: 0px;
+}
+.mapa p{
+	color: #fff;
+}
 /**----------- Start Media ----------**/
 @media screen and (max-width: 768px) {
   #slider, .carousel  {
