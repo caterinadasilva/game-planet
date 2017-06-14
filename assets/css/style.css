@@ -342,6 +342,10 @@ ul.nav.navbar-nav {
         -webkit-transform: translate3d(0,40px,0);
     transform: translate3d(0,40px,0);
 }
+/* CONTACTO */
+.fb-page iframe {
+    width: 100%;
+}
 /**----------- Start Media ----------**/
 @media screen and (max-width: 768px) {
   #slider, .carousel  {
