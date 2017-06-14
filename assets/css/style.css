@@ -25,7 +25,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-a, a:hover {
+a, a:hover, button, button:hover {
 	transition: .5s all ease;
 }
 .btn {
@@ -131,7 +131,6 @@ ul.nav.navbar-nav {
 /**-------------- Start Slider ---------------**/
 #slider, .carousel {
 	width: 100%;
-    max-height: 45vh;
     position: relative;
     margin: auto;
     overflow: hidden;
@@ -285,8 +284,8 @@ ul.nav.navbar-nav {
 /**-------------- End Slider ---------------**/
 
 /* CATALOGO */
-#catalogo, #contacto {
-    padding: 5em 0 10em;
+#catalogo {
+    padding: 5em 0;
 }
 #catalogo h2 {
     margin: 10vh auto;
@@ -345,9 +344,14 @@ ul.nav.navbar-nav {
     transform: translate3d(0,40px,0);
 }
 /* CONTACTO */
+#contacto {
+    padding: 5em 0 10em;
+}
+#contacto h2 {
+    margin: 10vh auto;
+}
 .form-group label, legend {
     color: white;
-
 }
 .fb-page iframe {
     width: 100%;
