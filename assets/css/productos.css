@@ -1,9 +1,34 @@
-
 /**************** DETALLE DEL PRODUCTO ***********/
-
+#producto {
+    margin: 15vh 0 5em;
+}
+#producto h1, #producto h2, #producto h3 { 
+    text-align: left;
+ }
+ol.breadcrumb {
+    background: none;
+}
+.breadcrumb>.active {
+    color: #FFF024;
+}
+.panel-title a {
+    width: 100%;
+    display: block;
+}
+.panel-default>.panel-heading {
+        font-family: 'Press Start 2P', sans-serif;
+        background-color: #0CCA98;
+        color: #fff;
+}
+.panel-body {
+    color: #22213D;
+}
 .carousel-inner .item img{
     height: 315px;
     width: 560px;
+}
+#recomendaciones h2 {
+    margin: 3em auto;
 }
 
 /**** ESTILO BOOTSTRAP ****/
@@ -33,6 +58,7 @@
     display: block;
     opacity: 0.5;
     max-height: 80px;
+        max-width: 135px;
 }
 #carousel-custom .carousel-indicators li.active img {
     opacity: 1;
@@ -44,6 +70,7 @@
     position: relative;
 }
 .carousel-control.left {
+    padding: 0;
     background-image: none;
     width: 54px;
     height: 54px;
@@ -60,6 +87,7 @@
 }
 
 .carousel-control.right {
+    padding: 0;
     background-image: none;
     width: 54px;
     height: 54px;

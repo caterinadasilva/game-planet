@@ -5,6 +5,9 @@
   border: 0;
   box-sizing: border-box;
 }
+.aleft {
+    float: left;
+}
 body {
 	background-image: url('../img/bg.png');
     background-blend-mode: luminosity;
@@ -25,7 +28,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-a, a:hover {
+a, a:hover, button, button:hover {
 	transition: .5s all ease;
 }
 .btn {
@@ -69,7 +72,6 @@ ul.nav.navbar-nav {
 }
 .navbar-inverse .navbar-nav li a, a{
 	color: #0CCA98;
-	padding-top: 45px;
     line-height: 20px;
 }
 .navbar-inverse .navbar-nav li a:hover, a:hover{
@@ -137,7 +139,6 @@ ul.nav.navbar-nav {
 /**-------------- Start Slider ---------------**/
 #slider, .carousel {
 	width: 100%;
-    max-height: 45vh;
     position: relative;
     margin: auto;
     overflow: hidden;
@@ -291,8 +292,8 @@ ul.nav.navbar-nav {
 /**-------------- End Slider ---------------**/
 
 /* CATALOGO */
-#catalogo, #contacto {
-    padding: 5em 0 10em;
+#catalogo {
+    padding: 5em 0;
 }
 #catalogo h2 {
     margin: 10vh auto;
@@ -351,9 +352,14 @@ ul.nav.navbar-nav {
     transform: translate3d(0,40px,0);
 }
 /* CONTACTO */
+#contacto {
+    padding: 5em 0;
+}
+#contacto h2 {
+    margin: 10vh auto;
+}
 .form-group label, legend {
     color: white;
-
 }
 .fb-page iframe {
     width: 100%;
@@ -372,9 +378,8 @@ a, a:hover {
 }
 
 /*	FOOTER*/
-.seccion-footer{
+footer.seccion-footer{
   background-color: rgba(34, 33, 61, 0.8);
-  position: fixed;
   border: none;
   background-blend-mode: luminosity;
   box-shadow: 0 0 10px #000;
@@ -382,11 +387,27 @@ a, a:hover {
   padding-bottom: 15px;
   padding-top: 15px;
   padding-left: 45px;
-  margin-top: 15px;
+  margin-top: 5em;
   bottom: 0px;
   width: 100%;
 }
-
+footer h3 {
+    text-align: left;
+    font-size: 130%;
+}
+a.social {
+    font-size: 20px;
+    border: 1px solid;
+    display: block;
+    border-radius: 50%;
+    line-height: 0;
+    width: 42px;
+    height: 42px;
+    padding: 10px;
+    float: left;
+    margin: 5px;
+    text-align: center;
+}
 .caja-texto p a {
   color: #0CCA98;
 }
@@ -405,6 +426,9 @@ a, a:hover {
 }
 .mapa p{
 	color: #fff;
+}
+.modal-title {
+    color: #22213D;
 }
 /**----------- Start Media ----------**/
 @media screen and (max-width: 768px) {
